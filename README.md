@@ -55,3 +55,13 @@ La aplicación está organizada con las siguientes actividades principales, defi
 | `HomeActivity` | Pantalla principal de la aplicación. |
 | `AgregarNoticiaActivity` | Interfaz para añadir nuevo contenido. |
 | `VerNoticiaActivity` | Visualización detallada de un contenido específico. |
+
+<img width="1746" height="808" alt="image" src="https://github.com/user-attachments/assets/15c070ed-d6a2-4247-96a2-4b51753c5df6" />
+<img width="1345" height="823" alt="image" src="https://github.com/user-attachments/assets/0b4aa22e-2e3c-4f1c-9b6f-761c6dd9aed9" />
+<img width="1391" height="772" alt="image" src="https://github.com/user-attachments/assets/20f434b1-ffa8-4da5-81a4-aa7d7003f0b1" />
+<img width="1296" height="884" alt="image" src="https://github.com/user-attachments/assets/83216c22-92d0-4681-bbf5-4c7889f704f2" />
+<img width="982" height="991" alt="image" src="https://github.com/user-attachments/assets/43271053-a051-4cea-a0ca-53c18186858c" />
+<img width="1887" height="790" alt="image" src="https://github.com/user-attachments/assets/a8cd501c-6ddf-4de6-8d88-c52a79ce5845" />
+
+
+
