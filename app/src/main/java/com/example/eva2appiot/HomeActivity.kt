@@ -32,7 +32,6 @@ class HomeActivity : AppCompatActivity() {
         val fabAgregarNoticia = findViewById<FloatingActionButton>(R.id.fabAgregarNoticia)
         val toolbar = findViewById<Toolbar>(R.id.toolbarHome)
 
-        // 1. Configuración de la Toolbar (Logout)
         toolbar.inflateMenu(R.menu.menu_home)
         toolbar.setOnMenuItemClickListener { menuItem ->
             if (menuItem.itemId == R.id.action_logout) {
@@ -51,17 +50,17 @@ class HomeActivity : AppCompatActivity() {
 
         noticiasAdapter = Noticias(this, listaNoticias) { noticia ->
             val intent = Intent(this, VerNoticiaActivity::class.java)
-            intent.putExtra("NOTICIA_ID", noticia.id) // Pasamos el ID del documento
+            intent.putExtra("NOTICIA_ID", noticia.id)
             startActivity(intent)
         }
-        recyclerView.adapter = noticiasAdapter // Asignar el adaptador
+        recyclerView.adapter = noticiasAdapter
 
         cargarNoticiasDesdeFirestore()
     }
 
     private fun cargarNoticiasDesdeFirestore() {
         db.collection("noticias")
-            .orderBy("fecha", Query.Direction.DESCENDING) // Ordenar por fecha
+            .orderBy("fecha", Query.Direction.DESCENDING)
             .addSnapshotListener { snapshots, e ->
                 if (e != null) {
                     Toast.makeText(this, "Error al cargar las noticias: ${e.message}", Toast.LENGTH_LONG).show()
@@ -73,11 +72,10 @@ class HomeActivity : AppCompatActivity() {
                     for (doc in snapshots.documents) {
                         val noticia = doc.toObject(Noticia::class.java)
                         noticia?.let {
-                            it.id = doc.id // Guardar el ID del documento
+                            it.id = doc.id
                             nuevasNoticias.add(it)
                         }
                     }
-                    // Actualizar el RecyclerView con los nuevos datos
                     noticiasAdapter.updateData(nuevasNoticias)
                 }
             }

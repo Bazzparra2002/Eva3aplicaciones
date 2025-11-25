@@ -57,7 +57,6 @@ class VerNoticiaActivity : AppCompatActivity() {
                         val fechaStr = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault()).format(noticia.fecha ?: "")
                         tvAutorFecha.text = "Por ${noticia.autor ?: "Anónimo"} - $fechaStr"
 
-                        // LÓGICA AÑADIDA PARA CARGAR LA IMAGEN CON GLIDE
                         if (!noticia.urlImagen.isNullOrEmpty()) {
                             Glide.with(this)
                                 .load(noticia.urlImagen)

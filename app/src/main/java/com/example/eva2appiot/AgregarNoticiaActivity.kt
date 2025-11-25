@@ -23,7 +23,6 @@ class AgregarNoticiaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agregar_noticia)
 
-        // Inicializar Firestore
         db = FirebaseFirestore.getInstance()
 
         // vistas
@@ -46,7 +45,6 @@ class AgregarNoticiaActivity : AppCompatActivity() {
         val autor = etAutor.text.toString().trim()
         val urlImagen = etUrlImagen.text.toString().trim()
 
-        // 1. Validaciones
         if (titulo.isEmpty() || resumen.isEmpty() || contenido.isEmpty() || autor.isEmpty()) {
             showAlert("Error de Validación", "Todos los campos (título, resumen, contenido, autor) son obligatorios.")
             return
