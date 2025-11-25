@@ -13,6 +13,7 @@ import com.google.firebase.auth.FirebaseAuth
 class Register : AppCompatActivity() {
 
     private lateinit var firebaseAuth: FirebaseAuth
+    private val userRepository = UserRepository()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,11 +38,20 @@ class Register : AppCompatActivity() {
                 firebaseAuth.createUserWithEmailAndPassword(emailText, passText)
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
+
+                            val user = firebaseAuth.currentUser
+
+                            user?.let {
+                                userRepository.saveUser(
+                                    uid = it.uid,
+                                    email = emailText,
+                                    name = nameText
+                                )
+                            }
                             Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
-
-
                             startActivity(Intent(this, HomeActivity::class.java))
                             finish()
+
                         } else {
                             val errorMessage = task.exception?.message ?: "Error desconocido en el registro."
                             showAlert("Error de Registro", errorMessage)

@@ -66,18 +66,15 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
 
-// Firebase Authentication (Login con Google)
     implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.android.gms:play-services-auth:21.0.0") // Versión más reciente
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
 
-// Firebase Firestore
     implementation("com.google.firebase:firebase-firestore")
 
-// Para el diseño (RecyclerView para Home)
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("androidx.cardview:cardview:1.0.0")
 
-    implementation("com.google.firebase:firebase-auth-ktx") // Para Login
+    implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
 
     implementation("com.github.bumptech.glide:glide:4.16.0")
