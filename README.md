@@ -59,7 +59,16 @@ La aplicación está organizada con las siguientes actividades principales, defi
 <img width="409" height="895" alt="image" src="https://github.com/user-attachments/assets/bb360d71-77bf-451f-8743-794eed94c5aa" />
 <img width="396" height="820" alt="image" src="https://github.com/user-attachments/assets/5a0e80d5-6aac-4d98-a702-cca81f3a8e43" />
 <img width="395" height="826" alt="image" src="https://github.com/user-attachments/assets/1f461f38-65a3-44b1-87ac-c4e2cfd861cf" />
+<img width="395" height="887" alt="image" src="https://github.com/user-attachments/assets/fea3677c-f32b-4dad-bb6a-5e510f7351b6" />
+<img width="392" height="883" alt="image" src="https://github.com/user-attachments/assets/aae967f5-6a25-4959-8701-a8d36c4ef257" />
 <img width="403" height="889" alt="image" src="https://github.com/user-attachments/assets/e7045309-d932-4c37-8b1e-4e3df4f1829c" />
+<img width="399" height="888" alt="image" src="https://github.com/user-attachments/assets/dfbbc49a-4184-4a1f-9772-8f4fd06c15f7" />
+<img width="399" height="891" alt="image" src="https://github.com/user-attachments/assets/90ee762f-8f82-42d9-b340-58ef28a79d51" />
+<img width="401" height="888" alt="image" src="https://github.com/user-attachments/assets/deb33bbb-59cb-4d5b-bae7-c2b935ae698b" />
+<img width="400" height="79" alt="image" src="https://github.com/user-attachments/assets/5a7bff2a-ea31-440f-8f0d-1f34211956ac" />
+
+
+
 
 
 
