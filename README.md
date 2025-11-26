@@ -34,7 +34,7 @@ Pasos a seguir:
 
 1.  Clonar el Repositorio:
     bash:
-    git clone https://github.com/Bazzparra2002/evaluacion3app.git
+    git clone https://github.com/Bazzparra2002/Eva3aplicaciones.git
     
 2.  Abrir en Android Studio:
      Abre Android Studio y selecciona `File` $\rightarrow$ `Open` y navega hasta la carpeta clonada.
