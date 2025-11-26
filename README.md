@@ -41,7 +41,7 @@ Pasos a seguir:
 3.  Configurar Firebase:
     Asegúrate de que el archivo `google-services.json` esté ubicado en el directorio `app/`.
 4.  Ejecutar:
-    Selecciona un **Emulador AVD o conecta un dispositivo físico.
+    Selecciona un Emulador AVD o conecta un dispositivo físico.
     Haz clic en el botón Run.
 
 - Estructura de Actividades
@@ -56,6 +56,10 @@ La aplicación está organizada con las siguientes actividades principales, defi
 | `AgregarNoticiaActivity` | Interfaz para añadir nuevo contenido. |
 | `VerNoticiaActivity` | Visualización detallada de un contenido específico. |
 
+<img width="409" height="895" alt="image" src="https://github.com/user-attachments/assets/bb360d71-77bf-451f-8743-794eed94c5aa" />
+<img width="396" height="820" alt="image" src="https://github.com/user-attachments/assets/5a0e80d5-6aac-4d98-a702-cca81f3a8e43" />
+<img width="395" height="826" alt="image" src="https://github.com/user-attachments/assets/1f461f38-65a3-44b1-87ac-c4e2cfd861cf" />
+<img width="403" height="889" alt="image" src="https://github.com/user-attachments/assets/e7045309-d932-4c37-8b1e-4e3df4f1829c" />
 
 
 
